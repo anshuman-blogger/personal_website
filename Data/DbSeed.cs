@@ -77,6 +77,9 @@ namespace PersonalWebsite.Data {
                     TypeId = SkillType.Language,
                     Comments = "Ruby is a great language to work with and is fairly basic and intuitive to understand.  I used this language mostly in my summer course work with DevBootcamp as they are a Ruby on Rails shop."
             });
+            *{
+                background-color:none;
+            }
 
             context.Skills.Add (new Skill () { Name = "Java", Begin = new DateTime (2017, 09, 15), LevelId = SkillLevel.Basic, TypeId = SkillType.Language });
             context.Skills.Add (new Skill () { Name = "JavaScript", Begin = new DateTime (2016, 03, 15), LevelId = SkillLevel.Intermediate, TypeId = SkillType.Language });
